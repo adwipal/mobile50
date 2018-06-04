@@ -21,11 +21,12 @@ const explicit = String(42) // explicit === "42"
 === requires equivalent types
 
 ## Prototyping Functions
+```js
 Number.prototype.toString = function() {
 return "100"
 }
 
-This would give:
+//This would give:
 
 const num = 69
 num.toString()
@@ -33,3 +34,4 @@ num.toString()
 "100"
 
 //not appreciated, done by devious programmers to break a code
+```
